@@ -1,0 +1,1 @@
+document.getElementById("account").innerHTML = IGN;

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gather & Craft</title>
 </head>
 <body>
-	<iframe src="game.html" width="74%" height="100%" style="border:1px solid black;">ERROR</iframe>
+	<div id="content"></div>
+
 	<script src="main.js"></script>
 </body>
+<script>
+	$("#content").load("EnterGame.html");
+</script>
 </html>
