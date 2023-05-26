@@ -1,5 +1,3 @@
-var socket = io();
-var IGN;
 var JsonData;
 
 function EnterGame(username, password, method) {
@@ -12,6 +10,5 @@ socket.on("EnterGameFailed", (reason) => {
 
 socket.on("EnterGameCompleted", (AccountJson) => {
 	JsonData = AccountJson;
-	IGN = JsonData.Username;
-	$("#content").load("Game.html");
+	$("#content").load("game.html");
 });
