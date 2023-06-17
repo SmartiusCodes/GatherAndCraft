@@ -1,4 +1,4 @@
-var JsonData;
+var AccountData;
 
 function EnterGame(username, password, method) {
 	socket.emit("EnterGame", username, password, method);
@@ -9,6 +9,8 @@ socket.on("EnterGameFailed", (reason) => {
 });
 
 socket.on("EnterGameCompleted", (AccountJson) => {
-	JsonData = AccountJson;
-	$("#content").load("game.html");
+	AccountData = AccountJson;
+	$("#tabs").load("tabs.html");
+	$("#playerInfo").load("playerInfo.html");
+	$("#content").load("customers.html");
 });

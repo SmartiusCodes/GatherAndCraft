@@ -1,0 +1,36 @@
+div.scrollmenu {
+    position: relative;
+    top: 5%;
+    left: 2%;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    border: 2px solid gray;
+    white-space: pre;
+    user-select: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+div.border {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border: 3px solid black;
+    width: 50%;
+    height: 50%;
+}
+select {
+    bottom: 15%;
+    position: absolute;
+}

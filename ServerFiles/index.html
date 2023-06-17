@@ -10,11 +10,16 @@
 </head>
 <body>
     <script src="/socket.io/socket.io.js"></script>
+    <div id="tabs"></div>
+    <hr>
+    <div id="playerInfo"></div>
+    <hr>
     <div id="content"></div>
 
     <script>
-        $("#content").load("account.html");
+        var username;
         var socket = io();
+        $("#content").load("account.html");
     </script>
 </body>
 </html>

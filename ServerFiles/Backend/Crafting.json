@@ -1,0 +1,68 @@
+{
+    "Weapons": {
+        "Knife": {
+            "StartingRarity": "Common",
+            "baseValue": 20,
+            "TimeToCraft": 7,
+            "BaseCost": {
+                "Wood": 2,
+                "Stone": 6
+            },
+            "Tiers": [
+                {
+                    "StoneReduction": 1,
+                    "TimeReduction": 2,
+                    "RarityUp": 1
+                }
+            ]
+        },
+        "Club": {
+            "StartingRarity": "Common",
+            "baseValue": 20,
+            "TimeToCraft": 7,
+            "BaseCost": {
+                "Wood": 8
+            },
+            "Tiers": [
+                {
+                    "TimeReduction": 1,
+                    "WoodReduction": 2,
+                    "RarityUp": 1
+                }
+            ]
+        }
+    },
+    "Armours": {
+        "LeatherChestplate": {
+            "StartingRarity": "Common",
+            "baseValue": 30,
+            "TimeToCraft": 12,
+            "BaseCost": {
+                "Leather": 15
+            },
+            "Tiers": [
+                {
+                    "LeatherReduction": 3,
+                    "TimeReduction": 2,
+                    "RarityUp": 1
+                }
+            ]
+        }
+    },
+    "Equipments": {
+        "HealthPotion": {
+            "StartingRarity": "Common",
+            "baseValue": 12,
+            "TimeToCraft": 5,
+            "BaseCost": {
+                "Herbs": 6
+            },
+            "Tiers": [
+                {
+                    "ValueIncrease": 1,
+                    "RarityUp": 1
+                }
+            ]
+        }
+    }
+}
